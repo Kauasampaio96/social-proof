@@ -1,0 +1,196 @@
+// Gerais
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'League Spartan', sans-serif
+
+body
+  display: flex
+  justify-content: center 
+  align-items: center
+  height: 100vh
+
+  @media (max-width: 1250px)
+    height: 100% 
+
+.attribution  
+  text-align: center
+  margin: 50px 0
+
+.main
+  width: 80%
+  max-width: 1200px
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  @media (max-width: 1250px)
+    width: 100%
+
+.flex-hero
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 75px
+
+  @media (max-width: 1250px)
+    flex-direction: column
+    margin-bottom: 30px
+    align-items: center
+  
+  &-1
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: center
+    width: 50%
+
+
+    @media (max-width: 1250px)
+      align-items: center
+      width: 90%
+
+    h1
+      font-size: 56px
+      font-weight: 800
+      color: hsl(300, 43%, 22%)
+      margin-bottom: 25px
+
+      @media (max-width: 1250px)
+        font-size: 48px
+        margin-top: 50px
+
+      @media (max-width: 900px)
+        font-size: 36px
+        margin-top: 50px 
+
+    p
+      font-size: 18px
+      padding: 0 40px 0 0 
+      color: hsl(303, 10%, 53%)
+      line-height: 22px
+      font-weight: 500
+
+      @media (max-width: 1250px)
+        padding: 0 25%
+        text-align: center
+        margin-bottom: 30px
+
+      @media (max-width: 900px)
+        padding: 0
+        text-align: center
+        margin-bottom: 30px
+
+
+
+  &-2
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+    justify-content: center
+    width: 50%
+
+    @media (max-width: 1250px)
+      align-items: center
+
+    .cd1
+      margin-right: 110px
+
+      @media (max-width: 1250px)
+        margin-right: 0
+
+    .cd2
+      margin-right: 35px
+
+      @media (max-width: 1250px)
+        margin-right: 0
+
+    &-card
+      background-color: hsl(300, 24%, 96%)
+      padding: 15px 30px
+      border-radius: 5px
+      margin: 10px 0
+
+      @media (max-width: 1250px)
+        width: 350px
+        text-align: center
+        margin: 20px 0
+
+      p
+        font-weight: bold
+        color: hsl(300, 43%, 22%)
+        display: inline-block
+
+        span
+          margin-right: 20px
+
+          @media (max-width: 1250px)
+           display: block
+           margin-bottom: 10px
+          i
+            color: #F99945
+
+
+.flex-cards
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+  @media (max-width: 1250px)
+    flex-direction: column
+
+  .cd1
+    margin-bottom: 25px 
+
+    @media (max-width: 1250px)
+      margin: 30px 0
+
+  .cd3
+    margin-top: 25px
+
+    @media (max-width: 1250px)
+       margin: 30px 0
+
+  &-card
+    padding: 40px 25px
+    background-color: hsl(300, 43%, 22%)
+    width: 30%
+    border-radius: 5px
+
+    @media (max-width: 1250px)
+      width: 50%
+
+    @media (max-width: 900px)
+      width: 80%
+  
+
+    .profile-info
+      display: flex
+      align-items: center
+      margin-bottom: 20px
+
+      .verify
+        color: hsl(333, 80%, 67%)
+        font-weight: 400
+
+      p
+        color: white
+        font-weight: 790
+        letter-spacing: 0.5px
+        margin: 0 0 5px
+
+      img
+        width: 40px
+        border-radius:50% 
+        margin-right: 20px
+    
+    .card-content
+      font-size: 1.050rem
+      color: white
+      line-height: 20px
+      letter-spacing: 0.3px
+
+
+      

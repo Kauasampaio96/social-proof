@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 1250px) {
+  body {
+    height: 100%;
+  }
+}
+
+.attribution {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.main {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 1250px) {
+  .main {
+    width: 100%;
+  }
+}
+
+.flex-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 75px;
+}
+@media (max-width: 1250px) {
+  .flex-hero {
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+}
+.flex-hero-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+@media (max-width: 1250px) {
+  .flex-hero-1 {
+    align-items: center;
+    width: 90%;
+  }
+}
+.flex-hero-1 h1 {
+  font-size: 56px;
+  font-weight: 800;
+  color: hsl(300deg, 43%, 22%);
+  margin-bottom: 25px;
+}
+@media (max-width: 1250px) {
+  .flex-hero-1 h1 {
+    font-size: 48px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .flex-hero-1 h1 {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+}
+.flex-hero-1 p {
+  font-size: 18px;
+  padding: 0 40px 0 0;
+  color: hsl(303deg, 10%, 53%);
+  line-height: 22px;
+  font-weight: 500;
+}
+@media (max-width: 1250px) {
+  .flex-hero-1 p {
+    padding: 0 25%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .flex-hero-1 p {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.flex-hero-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+}
+@media (max-width: 1250px) {
+  .flex-hero-2 {
+    align-items: center;
+  }
+}
+.flex-hero-2 .cd1 {
+  margin-right: 110px;
+}
+@media (max-width: 1250px) {
+  .flex-hero-2 .cd1 {
+    margin-right: 0;
+  }
+}
+.flex-hero-2 .cd2 {
+  margin-right: 35px;
+}
+@media (max-width: 1250px) {
+  .flex-hero-2 .cd2 {
+    margin-right: 0;
+  }
+}
+.flex-hero-2-card {
+  background-color: hsl(300deg, 24%, 96%);
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+@media (max-width: 1250px) {
+  .flex-hero-2-card {
+    width: 350px;
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+.flex-hero-2-card p {
+  font-weight: bold;
+  color: hsl(300deg, 43%, 22%);
+  display: inline-block;
+}
+.flex-hero-2-card p span {
+  margin-right: 20px;
+}
+@media (max-width: 1250px) {
+  .flex-hero-2-card p span {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+.flex-hero-2-card p span i {
+  color: #F99945;
+}
+
+.flex-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 1250px) {
+  .flex-cards {
+    flex-direction: column;
+  }
+}
+.flex-cards .cd1 {
+  margin-bottom: 25px;
+}
+@media (max-width: 1250px) {
+  .flex-cards .cd1 {
+    margin: 30px 0;
+  }
+}
+.flex-cards .cd3 {
+  margin-top: 25px;
+}
+@media (max-width: 1250px) {
+  .flex-cards .cd3 {
+    margin: 30px 0;
+  }
+}
+.flex-cards-card {
+  padding: 40px 25px;
+  background-color: hsl(300deg, 43%, 22%);
+  width: 30%;
+  border-radius: 5px;
+}
+@media (max-width: 1250px) {
+  .flex-cards-card {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .flex-cards-card {
+    width: 80%;
+  }
+}
+.flex-cards-card .profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.flex-cards-card .profile-info .verify {
+  color: hsl(333deg, 80%, 67%);
+  font-weight: 400;
+}
+.flex-cards-card .profile-info p {
+  color: white;
+  font-weight: 790;
+  letter-spacing: 0.5px;
+  margin: 0 0 5px;
+}
+.flex-cards-card .profile-info img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.flex-cards-card .card-content {
+  font-size: 1.05rem;
+  color: white;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+}
+
+/*# sourceMappingURL=style.css.map */
